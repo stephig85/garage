@@ -1,0 +1,41 @@
+### COLOR PALETTE ###
+Black: #000000, rgb(0,0,0);
+Cornsilk: #FFF7E0, rgb(255, 247, 224);
+Boston University Red: #C10000, rgb(193, 0, 0);
+Anti-Flash White: #F2F2F2, rgb(242,242,242);
+Arsenic: #3F4045, rgb(64,64,69);
+
+
+### Ideas ###
+
+- Navigation Options -
+>> Home/Landing Page
+  - Two buttons: one for login, one to sign up.
+  - Welcome message
+
+>> Profile
+  - Name
+  - 
+
+>> Showroom
+  - Image of vehicle
+  - Click on vehicle to show car data
+    - data shows in a dropdown/module? What is mobile friendly?
+
+  > Add a vehicle
+    - Form
+    - Submit button
+
+>> Service
+  - Locate nearby dealerships/service stations
+  - Emergency numbers (OnStar)
+  - Roadside Assistance Contact
+  - Insurance information/agent contact
+
+
+### Remember ###
+- Create a json file to make information dynamic.
+- Test on multiple browsers
+- Deploy app (GitHub or Firebase)
+- Bootstrap - Mobile Friendly.
+- Responsive is a MUST
