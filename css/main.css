@@ -1,0 +1,81 @@
+/*
+font-family: 'Quicksand', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Wire One', sans-serif;
+*/
+
+body {
+  max-width: 100%;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#navbar-logo {
+  max-width: 50px;
+}
+header {
+  padding-top: 100px;
+}
+.navbar-logo {
+  max-width: 30px;
+  filter: invert(100%);
+}
+.header-logo {
+  max-width: 200px;
+  vertical-align: 50%;
+}
+#mainNav {
+  background-color: #3F4045;
+  color: #F2F2F2;
+}
+#page-title {
+  margin-top: 40px;
+  /*background-color: rgba(63,64,69,.5);*/
+}
+#subtitle {
+  font-family: 'Wire One', sans-serif;
+  font-size: 40px;
+  margin: 30px;
+}
+button {
+  padding: 10px 30px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: #C10000;
+  color: #F2F2F2;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.choose-button {
+  width: 50%
+}
+.dropdown-menu-right {
+  right: 138px;
+}
+.get-started {
+  margin-top: 6em;
+}
+.add-vehicle,
+.save {
+  margin: 6em;
+  font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a {
+  font-size: 20px;
+  color: #F2F2F2;
+}
+.vehicle-data {
+  background-color: lightgray;
+  margin-bottom: 20em;
+}
+.vehicle-img {
+  margin-bottom: 15px;
+}
+ul li {
+  list-style-type: none;
+}
+.spec-input {
+  margin-top: 6em;
+}
