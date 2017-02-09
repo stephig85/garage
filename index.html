@@ -7,16 +7,68 @@
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300|Quicksand:400,500,700|Wire+One" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
 <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-cog fa-1x"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="./index.html"><img class="navbar-logo" alt="Brand" src="./img/icons/porsche_wheel.png" /></a>
+          </div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                      <a href="./index.html"></a>
+                  </li>
+                  <!-- <li>
+                      <a class="page-scroll" href="#profile">Profile</a>
+                  </li> -->
+                  <li>
+                      <a class="page-scroll" href="./showroom.html">Showroom</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="./service.html">Service</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+
+<!-- Landing Page -->
+
+<!-- Header -->
+  <header>
+    <div class="container">
+        <!-- Logo -->
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <img class="header-logo" src="./img/icons/porsche_wheel.png">
+          </div>
+        </div>
+        <div class="row">
+            <div id="page-title" class="col-xs-12 text-center">
+              <h1>Welcome to the Garage</h1>
+              <h2 id="subtitle">track your auto data in one place</h2>
+              <a href="./showroom.html"><button class="get-started">Get Started</button></a>
+            </div>
+        </div>
+    </div>
+  </header>
 
 
-
-
-
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="./js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>

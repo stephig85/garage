@@ -1,0 +1,32 @@
+user = {
+  "id": 10004657687,
+  "firstName": "John",
+  "lastName": "Smith",
+  "vehicles":
+   [
+    {
+      "vehicleType": "car",
+      "vehicleName": "Helga",
+      "vehicleMake": "Porsche",
+      "vehicleModel": "911 Carrera",
+      "vehicleYear": 2016,
+      "image": "./img/vehicles/porsche_carrera.jpg"
+    },
+    {
+      "vehicleType": "car",
+      "vehicleName": "Herbie",
+      "vehicleMake": "Volkswagen",
+      "vehicleModel": "Bug",
+      "vehicleYear": 1963,
+      "image": "./img/vehicles/vw_bug_herbie.jpg"
+    },
+    {
+      "vehicleType": "motorcycle",
+      "vehicleName": "Lil Red",
+      "vehicleMake": "Triumph",
+      "vehicleModel": "Bonneville",
+      "vehicleYear": 2013,
+      "image": "./img/vehicles/triumph_bonneville_lilred.jpg"
+    }
+   ]
+ }
