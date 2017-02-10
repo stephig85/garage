@@ -1,0 +1,21 @@
+{
+  "id": 100041,
+  "vehicleType": "car",
+  "vehicleName": "Helga",
+  "vehicleMake": "Porsche",
+  "vehicleModel": "Carrera 4S Coupe (3.8L 6cyl Turbo 7M)",
+  "vehicleYear": 2016,
+  "image": "./img/vehicles/porsche_carrera.jpg",
+  "tires": {
+    "frontTireSize": "235/35 ZR 19 (87Y)",
+    "rearTireSize": "305/30 ZR 19 (102Y)",
+    "frontTirePressure": "37psi",
+    "rearTirePressure": "44psi"
+  },
+  "fluids": {
+    "oilType": "SAE 0W - 40 (Full Synthetic)",
+    "oilCapacity": "7.9 quarts / 7.5 liters",
+    "fuelTankCapacity": "16.9 gal",
+    "fuelGrade": "Premium"
+  }
+}

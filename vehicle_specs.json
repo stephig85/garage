@@ -1,0 +1,12 @@
+name: Helga
+make: Porsche
+model: CARRERA 4S COUPE (3.8L 6cyl Turbo 7M)
+year: 2016
+- Tires:
+  - Front: 235/35 ZR 19 (87Y)
+  - Rear: 305/30 ZR 19 (102Y)
+  - Tire Pressure: 37psi/44psi rear
+- Fluids/Capacities
+  - Fuel Tank Capacity: 16.9 gal
+  - Oil Type: SAE 0W - 40
+    - Oil Capacity:  7.9 quarts / 7.5 liters

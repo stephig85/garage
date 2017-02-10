@@ -19,30 +19,30 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-cog fa-1x"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="./index.html"><img class="navbar-logo" alt="Brand" src="./img/icons/porsche_wheel.png" /></a>
+                <a class="navbar-brand" href="./index.html"><img class="navbar-logo" alt="Brand" src="./img/icons/porsche_wheel.png" /></a>
             </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="./index.html"></a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#profile">Profile</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="./showroom.html">Showroom</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="./service.html">Service</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+                <a href="./index.html"></a>
+            </li>
+            <li>
+                <a href="./showroom.html">Showroom</a>
+            </li>
+            <li>
+                <a href="./add_vehicle.html">Add Vehicle</a>
+            </li>
+            <li>
+                <a href="./service.html">Service</a>
+            </li>
+        </ul>
+    </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -76,14 +76,14 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <div>
-                <a href="#"><img class="img-rounded col-xs-12 col-md-4 vehicle-img" src="./img/vehicles/porsche_carrera.jpg"></a>
+              <div id="vehicle1">
+                <a href="#vehicle1"><img class="col-xs-12 col-sm-4 col-md-4 col-xs-offset-1 col-md-offset-1 vehicle-img" src="./img/vehicles/porsche_carrera.jpg"></a>
               </div>
-              <div>
-                <a href="#"><img class="col-xs-12 col-md-4 vehicle-img" src="./img/vehicles/vw_bug_herbie.jpg"></a>
+              <div id="vehicle2">
+                <a href="#vehicle2"><img class="col-xs-12 col-sm-4 col-md-4 vehicle-img" src="./img/vehicles/vw_bug_herbie.jpg"></a>
               </div>
-              <div>
-                <a href="#"><img class="col-xs-12 col-md-4 vehicle-img" src="./img/vehicles/triumph_bonnie_lilred.jpg"></a>
+              <div id="vehicle3">
+                <a href="#vehicle3"><img class="col-xs-12 col-sm-4 col-md-4 vehicle-img" src="./img/vehicles/triumph_bonnie_lilred.jpg"></a>
               </div>
             </div>
           </div>
@@ -94,9 +94,9 @@
   <section>
     <div class="container">
         <div class="row vehicle-data">
-            <div class="col-xs-12 text-center">
-              <p>Vehicle data goes in here when car is selected from above</p>
-              <p id="vehicle-specs"></p>
+            <div id="vehicle-specs" class="col-xs-12 col-xs-offset-1 col-sm-5 col-sm-offset-4 col-md-5 col-md-offset-4">
+              <!-- <p>Vehicle data goes in here when car is selected from above</p> -->
+
             </div>
         </div>
     </div>

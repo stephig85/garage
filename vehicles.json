@@ -1,16 +1,24 @@
-user = {
-  "id": 10004657687,
-  "firstName": "John",
-  "lastName": "Smith",
-  "vehicles":
-   [
+[
     {
+      "id": 100041,
       "vehicleType": "car",
       "vehicleName": "Helga",
       "vehicleMake": "Porsche",
-      "vehicleModel": "911 Carrera",
+      "vehicleModel": "Carrera 4S Coupe (3.8L 6cyl Turbo 7M)",
       "vehicleYear": 2016,
-      "image": "./img/vehicles/porsche_carrera.jpg"
+      "image": "./img/vehicles/porsche_carrera.jpg",
+      "tires": {
+        "front-wheel-size": "235/35 ZR 19 (87Y)",
+        "rear-wheel-size": "305/30 ZR 19 (102Y)",
+        "front-wheel-pressure": "37psi",
+        "rear-wheel-pressure": "44psi"
+      },
+      "fluids": {
+        "oil-type": "SAE 0W - 40",
+        "oil-capacity": "7.9 quarts / 7.5 liters",
+        "fuel-tank-capacity": "16.9 gal",
+        "fuel-type": "Premium"
+      }
     },
     {
       "vehicleType": "car",
@@ -29,4 +37,4 @@ user = {
       "image": "./img/vehicles/triumph_bonneville_lilred.jpg"
     }
    ]
- }
+ 

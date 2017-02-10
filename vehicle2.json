@@ -1,0 +1,21 @@
+{
+  "id": 100042,
+  "vehicleType": "car",
+  "vehicleName": "Herbie",
+  "vehicleMake": "Volkswagen",
+  "vehicleModel": "Bug",
+  "vehicleYear": 1968,
+  "image": "./img/vehicles/porsche_carrera.jpg",
+  "tires": {
+    "frontTireSize": "165/80R15",
+    "rearTireSize": "165/80R15",
+    "frontTirePressure": "20psi",
+    "rearTirePressure": "24psi"
+  },
+  "fluids": {
+    "oilType": "15w40 mineral",
+    "oilCapacity": "2.6 US quarts/2.5 litres",
+    "fuelTankCapacity": "10.6 US Gal",
+    "fuelGrade": "Regular"
+  }
+}

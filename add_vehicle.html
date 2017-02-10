@@ -19,11 +19,11 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-cog fa-1x"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="./index.html"><img class="navbar-logo" alt="Brand" src="./img/icons/porsche_wheel.png" /></a>
+                <a class="navbar-brand" href="./index.html"><img class="navbar-logo" alt="Brand" src="./img/icons/porsche_wheel.png" /></a>
             </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,14 +32,14 @@
                     <li class="hidden">
                         <a href="./index.html"></a>
                     </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#profile">Profile</a>
-                    </li> -->
                     <li>
-                        <a class="page-scroll" href="./showroom.html">Showroom</a>
+                        <a href="./add_vehicle.html">Add Vehicle</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="./service.html">Service</a>
+                        <a href="./showroom.html">Showroom</a>
+                    </li>
+                    <li>
+                        <a href="./service.html">Service</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@
 </header>
 
 <!-- 3 Dropdowns -->
-  <div class="dropdown">
+  <!-- <div class="dropdown">
     <div class="row">
       <div class="col-xs-12 col-md-4">
         <button class="btn btn-default dropdown-toggle choose-button" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -90,15 +90,30 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6 col-md-offset-3 spec-input">
-        <p>Custom Specs</p>
-        <input type="text" class="form-control" placeholder="Tire Brand">
-        <input type="text" class="form-control" placeholder="Tire Pressure">
-        <input type="text" class="form-control" placeholder="Text input">
+        <form id="newVehicleForm" action="newVehicle.json" method="post">
+          <h2 class="subtitle">Specifications</h2>
+          <input type="text" id="vehicleName" class="form-control" placeholder="Vehicle Name">
+          <input type="text" id="vehicleMake" class="form-control" placeholder="Make">
+          <input type="text" id="vehicleModel" class="form-control" placeholder="Model">
+          <input type="text" id="vehicleYear"class="form-control" placeholder="Year">
+          <h2 class="subtitle">Tires</h2>
+          <input type="text" id="frontTireSize" class="form-control" placeholder="Tire: Front Tire Size">
+          <input type="text" id="RearTireSize" class="form-control" placeholder="Tire: Rear Tire Size">
+          <input type="text" id="FrontTirePressure" class="form-control" placeholder="Tire: Front Tire Pressure">
+          <input type="text" id="RearTirePressure" class="form-control" placeholder="Tire: Rear Tire Pressure">
+          <h2 class="subtitle">Fluids</h2>
+          <input type="text" class="form-control" placeholder="Fuel Grade">
+          <input type="text" class="form-control" placeholder="Fuel Tank Capacity">
+          <input type="text" class="form-control" placeholder="Oil Type">
+          <input type="text" class="form-control" placeholder="Oil Capacity">
+          <!-- Save to Inventory -->
+            <button type="submit" class="save">Save</button>
+        </form>
       </div>
     </div>
   </div>
@@ -106,9 +121,6 @@
 <!-- Based on user selections, populate div with image and car details from API -->
 
 
-
-<!-- Save to Inventory -->
-  <button class="save">Save</button>
 
   <script type="text/javascript" src="./js/main.js"></script>
 </body>

@@ -1,0 +1,21 @@
+{
+  "id": 10003,
+  "vehicleType": "motorcycle",
+  "vehicleName": "Lil Red",
+  "vehicleMake": "Triumph",
+  "vehicleModel": "Bonneville T100",
+  "vehicleYear": 2013,
+  "image": "./img/vehicles/triumph_bonnie_lilred.jpg",
+  "tires": {
+    "frontTireSize": "Sport Demon 100/90V19",
+    "rearTireSize": "Sport Demon 130/80V17",
+    "frontTirePressure": "35psi",
+    "rearTirePressure": "38psi"
+  },
+  "fluids": {
+    "oilType": "Full Synthetic Motorex 15w50",
+    "oilCapacity": "3.8 liters",
+    "fuelTankCapacity": "4.2 gal/16 liters",
+    "fuelGrade": "Premium"
+  }
+}
