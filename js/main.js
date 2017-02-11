@@ -1,7 +1,7 @@
 // console.log('Connected!');
 $(document).ready(function(){
 
-// Bootstrap dropdown toggle
+  // Bootstrap dropdown toggle
 //   $(function(){
 //
 //     $(".dropdown-menu li a").click(function(){
@@ -113,13 +113,8 @@ function vehicleSpecs3(){
   // Submit form
   $('#newVehicleForm').on('submit', function(e) {
     // console.log('form submitted');
-    // Stop the form from submitting
+
     e.preventDefault();
-    // alert('form submitted');
-    // var newVehicle = $('newVehicleForm').serialize();
-    // $.post('newVehicle.json', newVehicle, function(data) {
-    //   alert("form submitted");
-    // })
 
     $('#newVehicleForm').empty();
     $('#newVehicleForm').html('New Vehicle Added! <br />');
@@ -127,6 +122,8 @@ function vehicleSpecs3(){
     $('#newVehicleForm').append('<button class="add-another">Add Another</button>');
     // console.log('form cleared');
   });
+
+
 
 
 // function showVehicles(response){

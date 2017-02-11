@@ -17,7 +17,7 @@ body {
   padding: 10px 20px;
 }
 header {
-  padding-top: 100px;
+  padding-top: 9em;
 }
 .navbar-logo {
   max-width: 30px;
@@ -58,12 +58,12 @@ button {
   right: 138px;
 }
 .get-started {
-  margin-top: 6em;
+  margin-top: 2em;
 }
 .add-vehicle,
 .save,
 .add-another {
-  margin: 4em;
+  margin: 3em;
   font-size: 15px;
 }
 .navbar-default .navbar-nav>li>a {
