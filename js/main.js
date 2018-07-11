@@ -75,7 +75,7 @@ function specifications(response){
 function vehicleSpecs1(){
   // console.log('vehicleSpecs1 function loads');
   var request=$.ajax({
-    url:'../vehicle1.json'
+    url:'./vehicle1.json'
   });
   request.done(function(response){
     console.log("vehicle1 request works");
@@ -87,7 +87,7 @@ function vehicleSpecs1(){
 function vehicleSpecs2(){
   // console.log('vehicleSpecs2 function loads');
   var request=$.ajax({
-    url: '../vehicle2.json'
+    url: './vehicle2.json'
   });
   request.done(function(responseTwo){
     console.log("vehicle2 request works");
