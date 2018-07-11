@@ -9,6 +9,6 @@ This concept app has been created to practice the following technologies:
 
 Goals for the project are to make it fully dynamic, and refactor the code to use React.js.
 
-Test drive it a bit here:
+Test drive it a bit here: https://stephig85.github.io/garage/
 
 Suggestions and comments are always appreciated!
